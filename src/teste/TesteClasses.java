@@ -1,6 +1,6 @@
-package Teste;
+package teste;
 
-import Basicas.*;
+import basicas.*;
 
 public class TesteClasses {
 
@@ -18,8 +18,11 @@ public class TesteClasses {
 		
 		Basica_Notas notas = new Basica_Notas();
 		
+		conteudo.Texto = "teste";
 		
+		conteudo.Autor = "Peterson";
 		
+		blog.AdicionarConteudo(conteudo);		
 		
 
 	}
